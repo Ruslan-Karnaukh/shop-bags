@@ -1,0 +1,2 @@
+const e=document.getElementsByClassName("color_button");for(const c of e){function s(e){const s=document.querySelector(".hero_img");console.log(s.src);switch(e.target.dataset.color){case"black":s.src="/src/images/bagBlack.png";break;case"pink":s.src="/src/images/bagPink.png";break;case"grey":s.src="/src/images/bagGrey.png";break;case"brown":s.src="/src/images/bagBrown.png";break;case"red":s.src="/src/images/bagRed.png";break;case"white":s.src="/src/images/bagWhite.png"}}c.addEventListener("click",s)}
+//# sourceMappingURL=index.d9b0c93e.js.map
