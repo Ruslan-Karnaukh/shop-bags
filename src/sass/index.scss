@@ -1,2 +1,5 @@
-@import './common';
-@import './example';
+@import './utils/colors';
+@import './utils/common';
+@import './utils/reset';
+@import './base/body';
+@import './components/index';
