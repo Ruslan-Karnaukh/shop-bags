@@ -1,0 +1,8 @@
+{ 
+    "black" : "/src/images/bagBlack.png",
+    "pink" : "/src/images/bagPink.png",
+    "grey" : "/src/images/bagGrey.png",
+    "brown" : "/src/images/bagBrown.png",
+    "red" : "/src/images/bagRed.png",
+    "white" : "/src/images/bagWhite.png"
+}

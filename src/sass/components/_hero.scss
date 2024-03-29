@@ -5,38 +5,44 @@
     justify-content: center;
     width: 450px;
     height: 450px;
-    background-color:  var(--base-color3);
-    background: linear-gradient(to top, var(--base-color2)15%, var(--base-color4) 50%, var(--base-color2) 85%);
+    background-color:  var(--color3);
+    background: linear-gradient(to top, var(--base-color4)15%, var(--color4) 50%, var(--base-color4) 85%);
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 50%;
-    box-shadow: 0 -1px 58px var(--base-color2), 0 0 2px 1px var(--base-color2);
+    box-shadow: 0 -1px 58px var(--base-color3), 0 0 2px 1px var(--base-color3);
+    /* border: 2px solid var(--color4); */
+    animation: border 4s  infinite;
 }
-
 .hero_block{
     max-width: 1400px;
     height: 500px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 .container_button{
     position: relative;
     width: 200px;
     height: 400px;
     border-left: 0;
-    border-right: 6px solid var(--base-color2);
+    border-right: 6px solid var(--base-color3);
     border-radius:0% 100% 100% 0% / 33% 46% 54% 24%;
-    box-shadow: 2px 0 2px var(--base-color2),4px 0 4px var(--base-color2), 6px 0 3px var(--base-color2);
+    box-shadow: 2px 0 2px var(--base-color3),4px 0 4px var(--base-color3), 6px 0 3px var(--base-color4);
 
 }
 .container_button button{
     cursor: pointer;
     position: absolute;
+    /* box-sizing: border-box; */
     background-color: inherit;
     width: 60px;
     height: 60px;
     border: none;
+    /* text-shadow: 4px 4px 4px var(--color3); */
+
+    /* background-image: url(/src/images/); */
     background-position: center ;
     background-size: contain;
     background-repeat: no-repeat;
@@ -49,7 +55,7 @@
 .container_button :nth-child(1){
     top: -25px;
     left: 10px;
-    background-image: url('/src/images/buttonsPictures/black.png');
+    background-image: url(/src/images/buttonsPictures/black.png);
     background-position: center ;
     background-size: contain;
     background-repeat: no-repeat;
@@ -57,31 +63,36 @@
 .container_button :nth-child(2){
     top: 33px;
     right: 30px;
-    background-image: url('/src/images/buttonsPictures/pink.png');
+    background-image: url(/src/images/buttonsPictures/pink.png);
 
 }
 .container_button :nth-child(3){
     top: 115px;
     right: -20px;
-    background-image: url('/src/images/buttonsPictures/gray.png');
+    background-image: url(/src/images/buttonsPictures/gray.png);
 
-    
+    /* transform: translate(-50%, 0); */
 }
 .container_button :nth-child(4){
     bottom: 115px;
     right: -20px;
-    background-image: url('/src/images/buttonsPictures/red.png');
+    background-image: url(/src/images/buttonsPictures/red.png);
+
+    /* transform: translate(-50%, -50%); */
 }
 .container_button :nth-child(5){
     bottom: 33px;
     right: 30px;
-    background-image: url('/src/images/buttonsPictures/brown.png');
+    background-image: url(/src/images/buttonsPictures/brown.png);
+
+    /* transform: translate(5px, -50%); */
 }
 .container_button :nth-child(6){
     bottom: -25px;
     left: 20px;
-    background-image: url('/src/images/buttonsPictures/white.png');
+    background-image: url(/src/images/buttonsPictures/white.png);
 
+    /* transform: translate(5px, -50%); */
 }
 .hero_img{
     width: 360px;
